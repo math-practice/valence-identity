@@ -17,7 +17,7 @@ Valence brand's visual identity consists of three same size circles – [blurred
 
 ### a. Blurred Red Circle
 
-The blurred red circle is can be reproduced in Figma with [Layer Blur](https://help.figma.com/hc/en-us/articles/360041488473-Apply-shadow-or-blur-effects#blur) function, with the amount to be set as 12.5% of the diameter. In SVG or CSS, the amount should be set as 6.25%. Below is an example when the circle is 400px in diameter:
+The blurred red circle is can be reproduced in Figma with [Layer Blur](https://help.figma.com/hc/en-us/articles/360041488473-Apply-shadow-or-blur-effects#layer-blur) function, with the amount to be set as 12.5% of the diameter. In SVG or CSS, the amount should be set as 6.25%. Below is an example when the circle is 400px in diameter:
 
 | Diameter | Figma Layer Blur `12.5%` | SVG feGaussianBlur `6.25%` | CSS Blur `6.25%` |
 | -------- | ------------------------ | -------------------------- | ---------------- |
@@ -48,11 +48,11 @@ The blurred red circle in HTML/CSS:
 
 ### b. Black Circle
 
-The black circle should always appear in the same diameter (without blur) as the blurred red circle, in pure black.
+The black circle should always appear in the same diameter as the blurred red circle, in solid pure black.
 
 ### c. 18 Moons
 
-The third circle consists of 18 dots. Each dot (moon) is drawn on the circular path of the same diameter as otehr circles, 20 degrees apart from each other. Each moon is 6.25% in size of the primary circle.
+The third circle consists of 18 dots. Each dot (or moon) is drawn on the circular path of the same diameter as otehr circles, 20 degrees apart from each other. Each moon is 6.25% in size of the primary circle.
 
 ![18 Moons Configuration](images/18-moons-configuration.svg)
 
