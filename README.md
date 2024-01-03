@@ -1,29 +1,29 @@
 # Valence Brand Guide
-1. **[Overview](#)**
-2. **[Identity Elements](#)** / [Blurred Red Circle](#), [Black Circle](#), [18 Moons](#), [The Diagram](#), [Wordmark](#)
-3. **[In Use](#)** / [The Diagram Only](#), [Wordmark Only](#), [Lockups](#)
-4. **[Colors](#)** / [Brand Colors](#), [Graphing Colors](#)
-5. **[Typography](#)** / [Primary Typeface](#), [Secondary Typeface](#), [Tertiary Typeface](#)
-6. **[Sample Designs](#)**
-7. **[Contact](#)**
+1. **[Overview](#1-overview)**
+2. **[Identity Elements](#2-identity-elements)** / [Blurred Red Circle](#a-blurred-red-circle), [Black Circle](#b-black-circle), [18 Moons](#c-18-moons), [The Diagram](#d-the-diagram), [Wordmark](#e-wordmark)
+3. **[In Use](#3-in-use)** / [The Diagram Only](#a-the-diagram-only), [Wordmark Only](#b-wordmark-only), [Lockups](#c-lockups)
+4. **[Colors](#4-colors)** / [Brand Colors](#a-brand-colors), [Graphing Colors](#b-graphing-colors)
+5. **[Typography](#5-typography)** / [Primary Typeface](#a-primary-typeface), [Secondary Typeface](#b-secondary-typeface), [Tertiary Typeface](#c-tertiary-typeface)
+6. **[Sample Designs](#6-sample-designs)**
+7. **[Contact](#7-contact)**
 
 ## 1. Overview
 TKTK
 
 ## 2. Identity Elements
-Valence brand's visual identity consists of [Blurred Red Circle](#a-blurred-red-circle), [Black Circle](#b-black-circle), and [18 Moons](#c-18-moons), that make up [The Diagram](#d-the-diagram). It can be used in conjunction with the [wordmark](#e-wordmark).
+Valence brand's visual identity consists of three same size circles – [blurred red circle](#a-blurred-red-circle), [black circle](#b-black-circle), and [18 Moons](#c-18-moons). These circles make up [the diagram](#d-the-diagram), which can be used in conjunction with the [wordmark](#e-wordmark). Refer to [lockups](#c-lockups) section for detail.
 
 ![Identity Elements](images/identity-elements.svg)
 
 ### a. Blurred Red Circle
 
-The red circle's blur can be reproduced in Figma with [Layer Blur](https://help.figma.com/hc/en-us/articles/360041488473-Apply-shadow-or-blur-effects#blur), with the amount to be set as 12.5% of the diameter. In SVG or CSS, the amount should be set as 6.25%.
+The blurred red circle is can be reproduced in Figma with [Layer Blur](https://help.figma.com/hc/en-us/articles/360041488473-Apply-shadow-or-blur-effects#blur) function, with the amount to be set as 12.5% of the diameter. In SVG or CSS, the amount should be set as 6.25%. Below is an example when the circle is 400px in diameter:
 
 | Diameter | Figma Layer Blur `12.5%` | SVG feGaussianBlur `6.25%` | CSS Blur `6.25%` |
 | -------- | ------------------------ | -------------------------- | ---------------- |
 | 400px    | 50                       | 25                         | 25               |
 
-Example in SVG:
+The blurred red circle in SVG:
 ```html
 <svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <circle cx="250" cy="250" r="200" fill="#FF2B00" filter="url(#blur)" />
@@ -32,7 +32,7 @@ Example in SVG:
   </filter>
 </svg>
 ```
-Example in HTML/CSS:
+The blurred red circle in HTML/CSS:
 ```html
 <div class="blurred-red-circle"></div>
 <style>
@@ -42,29 +42,29 @@ Example in HTML/CSS:
     background: #FF2B00;
     border-radius: 200px;
     filter: blur(25px);
-}
+  }
 </style>
 ```
 
 ### b. Black Circle
 
-Black Circle should always appear in the same diameter (without blur) as the Blurred Red Circle. 
+The black circle should always appear in the same diameter (without blur) as the blurred red circle, in pure black.
 
 ### c. 18 Moons
 
-![18 Moons Configuration](images/18-moons-configuration.svg)
+The third circle consists of 18 dots. Each dot (moon) is drawn on the circular path of the same diameter as otehr circles, 20 degrees apart from each other. Each moon is 6.25% in size of the primary circle.
 
-Each moon is drawn on the same diameter circular path, 20 degrees apart from each other. Each moon's diameter is 6.25% of the primary diameter.
+![18 Moons Configuration](images/18-moons-configuration.svg)
 
 ### d. The Diagram
 
-The diagram is where the three identity elements overlap. Blurred Red Circle and Black Circle are positioned on top of another with 50% of their height overlapping. The overlapped area is represented in blue, [the opposite end of the specific red in HSL color space](#a-brand-colors). 18 moons are placed at the center of the composition with each moon colored as an opposite of its surrounding.
+The diagram is where the three identity elements overlap, which can be used as standalone element. See [In Use](#3-in-use) section for further detail. The blurred red circle and the black circle are positioned on top of another with 50% of their height overlapping. The overlapped area is represented in blue, [the opposite end of the specific red in HSL color space](#a-brand-colors). 18 moons are placed at the center of the composition with each moon colored as an opposite of its surrounding.
 
 ![The Diagram Configuration](images/the-diagram-configuration.svg)
 
 ### e. Wordmark
 
-Valence wordmark is a customized rendition of [Times](#a-primary), the primary typeface of the brand.
+Valence wordmark is a customized rendition of [Times](#a-primary), the primary typeface of the brand. Below is a diff of the Valence wordmark and the word 'Valence' set in Times. The wordmark can be used as standalone element. See [In Use](#3-in-use) section for further detail.
 
 ![Wordmark Configuration](images/wordmark-configuration.svg)
 
@@ -95,11 +95,10 @@ Download [SVG](#), [PNG](#)
 Download [SVG](#), [PNG](#)
 
 ## 4. Colors
+
 ### a. Brand colors
 
-![HSL Color Space](images/hsl-color-space.svg)
-
-The primary colors for Valence are listed below. These are the same colors used in the Blurred Red Circle, Black Circle and and the overlapped area.
+The red and blue of Valence primary colors are created using directly opposite colors in the HSL color space, each being shifted by 10 degrees. The red is adjusted to be 10° from zero degrees, representing a slight shift in hue from pure red. The blue color is also adjusted to be 10° away from 180 degrees, indicating the same shift from pure blue. The pure black is added to the set, making the three promary colors for Valence. These are the same colors used in the [blurred red circle](#a-blurred-red-circle), [black circle](#b-black-circle) and the overlapped area.
 
 |                                                   | Name   | HSL             | RGB             | HEX       |
 | ------------------------------------------------- | ------ | --------------- | --------------- | --------- |
@@ -107,6 +106,7 @@ The primary colors for Valence are listed below. These are the same colors used 
 | ![](https://placehold.co/15x15/000000/000000.png) | Black  | `  0,   0,   0` | `  0,   0,   0` | `#000000` |
 | ![](https://placehold.co/15x15/02D5FF/02D5FF.png) | Blue   | `190, 100,  50` | `  2, 213, 255` | `#02D5FF` |
 
+![HSL Color Space](images/hsl-color-space.svg)
 
 ### b. Graphing colors
 
