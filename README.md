@@ -99,8 +99,6 @@ Download [SVG](#), [PNG](#)
 
 ![HSL Color Space](images/hsl-color-space.svg)
 
-![Brand colors](images/brand-colors.svg)
-
 The primary colors for Valence are listed below. These are the same colors used in the Blurred Red Circle, Black Circle and and the overlapped area.
 
 |                                                   | Name   | HSL             | RGB             | HEX       |
@@ -117,6 +115,8 @@ A separate set of colors, primarily to differentiate different categories shown 
 The color set is also designed to be used in order. If you want only four colors, the first four colors from the list can be used, as the colors at the top of the list are more identifiable. It is best practice to keep the number of colors to a minimum in a single chart.
 
 Please note that while the red is the same red as the brand color, but the blue is different for better legibility.
+
+![Brand colors](images/graphing-colors.svg)
 
 ```js
 '#FF2A00' ,'#00A3FF' ,'#EA80D1' ,'#4EBB5B' ,'#FFBC57' ,'#800000' ,'#A0A0A0' ,'#C2C600' ,'#8476DE' ,'#17CFCF'
