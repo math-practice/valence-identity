@@ -75,24 +75,24 @@ Valence wordmark is a customized rendition of [Times](#a-primary), the primary t
 The diagram can be used by itself to represent the Valence brand where appropriate.
 
 ![The Diagram only](images/the-diagram-only.svg)
-Download [SVG](#), [PNG](#)
+Download [SVG](downloads/the-diagram-only.svg), [PNG](downloads/the-diagram-only.png)
 
 ### b. Wordmark only
 
 The wordmark can be used by itself to represent the Valence brand where appropriate.
 
 ![Wordmark only](images/wordmark-only.svg)
-Download [SVG](#), [PNG](#)
+Download [SVG](downloads/wordmark-only.svg), [PNG](downloads/wordmark-only.png)
 
 ### c. Lockups
 
 The Diagram and Wordmark can be locked up in two different ways. Horizontal lockup is preferred when there's limited surface amount to utilize. Vertical lockup is preferred for more official use.
 
 ![Horizontal lockup](images/horizontal-lockup.svg)
-Download [SVG](#), [PNG](#)
+Download [SVG](downloads/horizontal-lockup.svg), [PNG](downloads/horizontal-lockup.png)
 
 ![Vertical lockup](images/vertical-lockup.svg)
-Download [SVG](#), [PNG](#)
+Download [SVG](downloads/vertical-lockup.svg), [PNG](downloads/vertical-lockup.png)
 
 ## 4. Colors
 
