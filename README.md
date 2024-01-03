@@ -13,7 +13,7 @@ TKTK
 ## 2. Identity Elements
 Valence brand's visual identity consists of [Blurred Red Circle](#a-blurred-red-circle), [Black Circle](#b-black-circle), and [18 Moons](#c-18-moons), that make up [The Diagram](#d-the-diagram). It can be used in conjunction with the [wordmark](#e-wordmark).
 
-![Identity Elements](https://placehold.co/1920x1080)
+![Identity Elements](images/identity-elements.svg)
 
 ### a. Blurred Red Circle
 
@@ -52,7 +52,7 @@ Black Circle should always appear in the same diameter (without blur) as the Blu
 
 ### c. 18 Moons
 
-![18 Moons Configuration](https://placehold.co/1920x1080)
+![18 Moons Configuration](images/18-moons-configuration.svg)
 
 Each moon is drawn on the same diameter circular path, 20 degrees apart from each other. Each moon's diameter is 6.25% of the primary diameter.
 
@@ -60,13 +60,13 @@ Each moon is drawn on the same diameter circular path, 20 degrees apart from eac
 
 The diagram is where the three identity elements overlap. Blurred Red Circle and Black Circle are positioned on top of another with 50% of their height overlapping. The overlapped area is represented in blue, [the opposite end of the specific red in HSL color space](#a-brand-colors). 18 moons are placed at the center of the composition with each moon colored as an opposite of its surrounding.
 
-![The Diagram Configuration](https://placehold.co/1920x1080)
+![The Diagram Configuration](images/the-diagram-configuration.svg)
 
 ### e. Wordmark
 
 Valence wordmark is a customized rendition of [Times](#a-primary), the primary typeface of the brand.
 
-![Wordmark Configuration](https://placehold.co/1920x1080)
+![Wordmark Configuration](images/wordmark-configuration.svg)
 
 ## 3. In Use
 
@@ -74,32 +74,32 @@ Valence wordmark is a customized rendition of [Times](#a-primary), the primary t
 
 The diagram can be used by itself to represent the Valence brand where appropriate.
 
-![The Diagram only](https://placehold.co/1920x1080)
+![The Diagram only](images/the-diagram-only.svg)
 Download [SVG](#), [PNG](#)
 
 ### b. Wordmark only
 
 The wordmark can be used by itself to represent the Valence brand where appropriate.
 
-![Wordmark only](https://placehold.co/1920x1080)
+![Wordmark only](images/wordmark-only.svg)
 Download [SVG](#), [PNG](#)
 
 ### c. Lockups
 
 The Diagram and Wordmark can be locked up in two different ways. Horizontal lockup is preferred when there's limited surface amount to utilize. Vertical lockup is preferred for more official use.
 
-![Horizontal lockup](https://placehold.co/1920x1080)
+![Horizontal lockup](images/horizontal-lockup.svg)
 Download [SVG](#), [PNG](#)
 
-![Vertical lockup](https://placehold.co/1920x1080)
+![Vertical lockup](images/vertical-lockup.svg)
 Download [SVG](#), [PNG](#)
 
 ## 4. Colors
 ### a. Brand colors
 
-![HSL Color Space](https://placehold.co/1920x1080)
+![HSL Color Space](images/hsl-color-space.svg)
 
-![Brand colors](https://placehold.co/1920x1080)
+![Brand colors](images/brand-colors.svg)
 
 The primary colors for Valence are listed below. These are the same colors used in the Blurred Red Circle, Black Circle and and the overlapped area.
 
@@ -118,7 +118,7 @@ The color set is also designed to be used in order. If you want only four colors
 
 Please note that while the red is the same red as the brand color, but the blue is different for better legibility.
 
-```
+```js
 '#FF2A00' ,'#00A3FF' ,'#EA80D1' ,'#4EBB5B' ,'#FFBC57' ,'#800000' ,'#A0A0A0' ,'#C2C600' ,'#8476DE' ,'#17CFCF'
 ```
 
@@ -150,19 +150,19 @@ The primary typeface for the Valence brand is Times, a classic typeface with a r
 
 The typeface can be used for brand messages and body text. However, for UI use, Times can be replaced with a font that has a slightly refined look, including Adobe Text Pro.
 
-![Primary typeface](https://placehold.co/1920x1080)
+![Primary typeface](images/primary-typeface.svg)
 
 ### b. Secondary typeface
 
 The secondary typeface, to be used in conjunction with the primary, is Unica 77 by Lineto. Unica 77 is versatile enough to be used in UI applications. The license for Unica 77 can be obtained from [Lineto website](https://lineto.com/typefaces/unica77?font=L3l-qxAYPaV).
 
-![Primary typeface](https://placehold.co/1920x1080)
+![Secondary typeface](images/secondary-typeface.svg)
 
 ### c. Tertiary typeface
 
 For a limited use, for visual clarity in numeric and code representation, the [monospaced variant of Unica 77](https://lineto.com/typefaces/unica77-mono?font=PDpITQJkbYI) can be used. Proper licenses to be obtained upon usage.
 
-![Primary typeface](https://placehold.co/1920x1080)
+![Tertiary typeface](images/tertiary-typeface.svg)
 
 ## 6. Sample designs
 
