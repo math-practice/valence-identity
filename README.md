@@ -1,47 +1,11 @@
 # Valence Brand Guide
-<ol class="toc">
-<li><a href="#">Overview</a></li>
-<li><a href="#">Identity Elements</a></li>
-  <ol>
-    <li><a href="#">Blurred Red Circle</a></li>
-    <li><a href="#">Black Circle</a></li>
-    <li><a href="#">18 Moons</a></li>
-    <li><a href="#">The Diagram</a></li>
-    <li><a href="#">Wordmark</a></li>
-  </ol>
-<li><a href="#">In Use</a></li>
-  <ol>
-    <li><a href="#">The Diagram only</a></li>
-    <li><a href="#">Wordmark only</a></li>
-    <li><a href="#">Lockups</a></li>
-  </ol>
-<li><a href="#">Colors</a></li>
-  <ol>
-    <li><a href="#">Brand Colors</a></li>
-    <li><a href="#">Graphing Colors</a></li>
-  </ol>
-<li><a href="#">Typography</a></li>
-  <ol>
-    <li><a href="#">Primary Typeface</a></li>
-    <li><a href="#">Secondary Typeface</a></li>
-    <li><a href="#">Tertiary Typeface</a></li>
-  </ol>
-<li><a href="#">Sample Designs</a></li>
-<li><a href="#">Contact</a></li>
-</ol>
-<style>
-  ol.toc {
-    column-count: 3;
-    padding: 1em 2.5em;
-    border: 1px solid rgba(255,255,255,0.2);
-  }
-  ol.toc ol {
-    font-weight: normal;
-    list-style-type: lower-alpha;
-    break-inside: avoid;
-    padding-left: 1em;
-  }
-</style>
+1. **[Overview](#)**
+2. **[Identity Elements](#)** / [Blurred Red Circle](#), [Black Circle](#), [18 Moons](#), [The Diagram](#), [Wordmark](#)
+3. **[In Use](#)** / [The Diagram Only](#), [Wordmark Only](#), [Lockups](#)
+4. **[Colors](#)** / [Brand Colors](#), [Graphing Colors](#)
+5. **[Typography](#)** / [Primary Typeface](#), [Secondary Typeface](#), [Tertiary Typeface](#)
+6. **[Sample Designs](#)**
+7. **[Contact](#)**
 
 ## 1. Overview
 TKTK
