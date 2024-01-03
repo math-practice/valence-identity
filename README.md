@@ -11,7 +11,7 @@
 TKTK
 
 ## 2. Identity Elements
-Valence brand's visual identity consists [Blurred Red Circle](#a-blurred-red-circle), [Black Circle](#b-black-circle), and [18 Moons](#c-18-moons), that make up [The Diagram](#d-the-diagram). It can be used in conjunction with the [wordmark](#e-wordmark).
+Valence brand's visual identity consists of [Blurred Red Circle](#a-blurred-red-circle), [Black Circle](#b-black-circle), and [18 Moons](#c-18-moons), that make up [The Diagram](#d-the-diagram). It can be used in conjunction with the [wordmark](#e-wordmark).
 
 ![Identity Elements](https://placehold.co/1920x1080)
 
@@ -24,7 +24,7 @@ The red circle's blur can be reproduced in Figma with [Layer Blur](https://help.
 | 400px    | 50                       | 25                         | 25               |
 
 Example in SVG:
-```
+```html
 <svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <circle cx="250" cy="250" r="200" fill="#FF2B00" filter="url(#blur)" />
   <filter id="blur" x="0" y="0" width="500" height="500" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
@@ -33,7 +33,7 @@ Example in SVG:
 </svg>
 ```
 Example in HTML/CSS:
-```
+```html
 <div class="blurred-red-circle"></div>
 <style>
   .blurred-red-circle {
@@ -54,7 +54,7 @@ Black Circle should always appear in the same diameter (without blur) as the Blu
 
 ![18 Moons Configuration](https://placehold.co/1920x1080)
 
-Each moon is drawn on the same diameter circular path, 20 degrees apart from each other. Each moon's diameter is 6.25% of the primary diamter.
+Each moon is drawn on the same diameter circular path, 20 degrees apart from each other. Each moon's diameter is 6.25% of the primary diameter.
 
 ### d. The Diagram
 
@@ -66,27 +66,27 @@ The diagram is where the three identity elements overlap. Blurred Red Circle and
 
 Valence wordmark is a customized rendition of [Times](#a-primary), the primary typeface of the brand.
 
-![Wordmark Configuarion](https://placehold.co/1920x1080)
+![Wordmark Configuration](https://placehold.co/1920x1080)
 
 ## 3. In Use
 
 ### a. The Diagram only
 
-The diagram can be used by itself to represent the Valence brand where approproate.
+The diagram can be used by itself to represent the Valence brand where appropriate.
 
 ![The Diagram only](https://placehold.co/1920x1080)
 Download [SVG](#), [PNG](#)
 
 ### b. Wordmark only
 
-The wordmark can be used by itself to represent the Valence brand where approproate.
+The wordmark can be used by itself to represent the Valence brand where appropriate.
 
 ![Wordmark only](https://placehold.co/1920x1080)
 Download [SVG](#), [PNG](#)
 
 ### c. Lockups
 
-The Diagram and Wormark can be locked up in two different ways. Horizontal lockup is preferred when there's limites surface amount to utilize. Vertical lockup is preferred for more official use.
+The Diagram and Wordmark can be locked up in two different ways. Horizontal lockup is preferred when there's limited surface amount to utilize. Vertical lockup is preferred for more official use.
 
 ![Horizontal lockup](https://placehold.co/1920x1080)
 Download [SVG](#), [PNG](#)
@@ -112,7 +112,7 @@ The primary colors for Valence are listed below. These are the same colors used 
 
 ### b. Graphing colors
 
-A separate set of colors, primarily to differentiate different categories shwon in charts and graphs, is defined as below. These colors are chosen with perceptually distinction and verbal describability in mind. 
+A separate set of colors, primarily to differentiate different categories shown in charts and graphs, is defined as below. These colors are chosen for their perceptual distinctiveness and verbal describability. 
 
 The color set is also designed to be used in order. If you want only four colors, the first four colors from the list can be used, as the colors at the top of the list are more identifiable. It is best practice to keep the number of colors to a minimum in a single chart.
 
@@ -146,7 +146,7 @@ These are good to be used on a white, black or a light gray background as accent
 ## 5. Typography
 ### a. Primary typeface
 
-The primary typeface for Valence brand is Times, a classic typeface with rich history. There are many digital variants of Times typeface, including Times (Linotype) included in macOS, and Times New Roman (Monotype) in Windows. While they are very similar and therefore interchangeable, the brand prefers Times (Linotype), the digitalized version of the typefaced commissioned by the newspaper The Times.
+The primary typeface for the Valence brand is Times, a classic typeface with a rich history. There are many digital variants of Times typeface, including Times (Linotype) included in macOS, and Times New Roman (Monotype) in Windows. While they are very similar and therefore interchangeable, the brand prefers Times (Linotype), the digitalized version of the typeface commissioned by the newspaper The Times.
 
 The typeface can be used for brand messages and body text. However, for UI use, Times can be replaced with a font that has a slightly refined look, including Adobe Text Pro.
 
