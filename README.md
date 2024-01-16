@@ -113,7 +113,7 @@ Download [SVG](downloads/vertical-lockup.svg), [PNG](downloads/vertical-lockup.p
 
 ### d. On a darker background
 
-While it is not recommneded, all of the identity elements can be displayed on a darker background for a limited use. This includes the diagram, wordmark, and the lockups. The only important thing is that the color black needs to be substituted with white, giving the logo an 'inverted' look. Whenever possible, sue the files provided below instead of altering colors of the existing assets.
+While it is not recommneded, all of the identity elements can be displayed on a darker background for a limited use. This includes the diagram, wordmark, and the lockups. The only important thing is that the color black needs to be substituted with white, giving the logo an 'inverted' look. Whenever possible, use the files provided below instead of altering colors of the existing assets.
 
 ![Lockups on black](images/lockups-on-black.svg)
 Download:  
@@ -198,12 +198,13 @@ For a limited use, for visual clarity in numeric and code representation, the [m
 
 ## 6. Sample designs
 ### a. Website mockups
-Homepage [PNG](downloads/web-home.png), [PDF](downloads/web-home.pdf)  
-Covenant (Contract view) [PNG](downloads/web-covenant-contract.png), [PNG](downloads/web-covenant-contract.pdf)  
-Covenant (JSON view) [PNG](downloads/web-covenant-json.png), [PNG](downloads/web-covenant-json.pdf)  
-Rebalancer [PNG](downloads/web-rebalancer.png), [PNG](downloads/web-rebalancer.png)
 
 ![Sample web pages](images/sample-web.png)
+
+Homepage [PNG](downloads/web-home.png), [PDF](downloads/web-home.pdf)  
+Covenant (Contract view) [PNG](downloads/web-covenant-contract.png), [PDF](downloads/web-covenant-contract.pdf)  
+Covenant (JSON view) [PNG](downloads/web-covenant-json.png), [PDF](downloads/web-covenant-json.pdf)  
+Rebalancer [PNG](downloads/web-rebalancer.png), [PDF](downloads/web-rebalancer.png)
 
 ### b. Team swag
 
