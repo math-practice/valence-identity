@@ -209,6 +209,7 @@ Rebalancer [PNG](downloads/web-rebalancer.png), [PDF](downloads/web-rebalancer.p
 ### b. Team swag
 
 TKTK
+![Sample sweatshirt](images/sample-sweatshirt.jpg)
 
 ## 7. Contact
 For inquiries, please contact TKTK.
