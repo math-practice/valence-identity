@@ -1,10 +1,27 @@
 # Valence Brand Guide
 1. **[Overview](#1-overview)**
-2. **[Identity Elements](#2-identity-elements)** / [Blurred Red Circle](#a-blurred-red-circle), [Black Circle](#b-black-circle), [18 Moons](#c-18-moons), [The Diagram](#d-the-diagram), [Wordmark](#e-wordmark)
-3. **[In Use](#3-in-use)** / [The Diagram Only](#a-the-diagram-only), [Wordmark Only](#b-wordmark-only), [Lockups](#c-lockups)
-4. **[Colors](#4-colors)** / [Brand Colors](#a-brand-colors), [Graphing Colors](#b-graphing-colors)
-5. **[Typography](#5-typography)** / [Primary Typeface](#a-primary-typeface), [Secondary Typeface](#b-secondary-typeface), [Tertiary Typeface](#c-tertiary-typeface)
-6. **[Sample Designs](#6-sample-designs)**
+2. **[Identity Elements](#2-identity-elements)**  
+  a. [Blurred Red Circle](#a-blurred-red-circle)  
+  b. [Black Circle](#b-black-circle)  
+  c. [18 Moons](#c-18-moons)  
+  d. [The Diagram](#d-the-diagram)  
+  e. [Wordmark](#e-wordmark)
+3. **[In Use](#3-in-use)**  
+  a. [The Diagram Only](#a-the-diagram-only)  
+  b. [Wordmark Only](#b-wordmark-only)  
+  c. [Lockups](#c-lockups)  
+  d. [On a darker background](#d-on-a-darker-background)  
+  e. [Application without blur](#e-application-without-blur)
+4. **[Colors](#4-colors)**  
+  a. [Brand Colors](#a-brand-colors)  
+  b. [Graphing Colors](#b-graphing-colors)
+5. **[Typography](#5-typography)**  
+  a. [Primary Typeface](#a-primary-typeface)  
+  b. [Secondary Typeface](#b-secondary-typeface)  
+  c. [Tertiary Typeface](#c-tertiary-typeface)
+6. **[Sample Designs](#6-sample-designs)**  
+  a. [Website mockups](#a-website-mockups)  
+  b. [Team swag](#b-team-swag)
 7. **[Contact](#7-contact)**
 
 ## 1. Overview
@@ -70,7 +87,7 @@ Valence wordmark is a customized rendition of [Times](#a-primary), the primary t
 
 ## 3. In Use
 
-### a. The Diagram only
+### a. The diagram only
 
 The diagram can be used by itself to represent the Valence brand where appropriate.
 
@@ -86,13 +103,28 @@ Download [SVG](downloads/wordmark-only.svg), [PNG](downloads/wordmark-only.png)
 
 ### c. Lockups
 
-The Diagram and Wordmark can be locked up in two different ways. Horizontal lockup is preferred when there's limited surface amount to utilize. Vertical lockup is preferred for more official use.
+The diagram and wordmark can be locked up in two different ways. Horizontal lockup is preferred when there's limited surface amount to utilize. Vertical lockup is preferred for more official use.
 
 ![Horizontal lockup](images/horizontal-lockup.svg)
 Download [SVG](downloads/horizontal-lockup.svg), [PNG](downloads/horizontal-lockup.png)
 
 ![Vertical lockup](images/vertical-lockup.svg)
 Download [SVG](downloads/vertical-lockup.svg), [PNG](downloads/vertical-lockup.png)
+
+### d. On a darker background
+
+While it is not recommneded, all of the identity elements can be displayed on a darker background for a limited use. This includes the diagram, wordmark, and the lockups. The only important thing is that the color black needs to be substituted with white, giving the logo an 'inverted' look. Whenever possible, sue the files provided below instead of altering colors of the existing assets.
+
+![Lockups on black](images/lockups-on-black.svg)
+Download:  
+Inverted diagram only in [SVG](downloads/the-diagram-only-inverted.svg), [PNG](downloads/the-diagram-only-inverted.png)  
+Inverted wordmark only in [SVG](downloads/wordmark-only-inverted.svg), [PNG](downloads/wordmark-only-inverted.png)  
+Inverted horizontal lockup in [SVG](downloads/horizontal-lockup-inverted.svg), [PNG](downloads/horizontal-lockup-inverted.png)  
+Inverted vertical lockup in [SVG](downloads/vertical-lockup-inverted.svg), [PNG](downloads/vertical-lockup-inverted.png)
+
+### e. Application without blur
+
+The blur of red and blue circles is a cruciual aspect of the Valence brand. The effect is meant to be carried out in different mediums as it is the most natural to the medium itself. For example for silk screened reproduction, a halftone screen might be considered. If there is absolutely no viable path to obtain a meaningful blur effect, solid circles without blur can be considered. The diagram with solid circles can be found here as [SVG](downloads/the-diagram-only-sans-blur.svg) or [PNG](downloads/the-diagram-only-sans-blur.png). 
 
 ## 4. Colors
 
@@ -165,8 +197,17 @@ For a limited use, for visual clarity in numeric and code representation, the [m
 ![Tertiary typeface](images/tertiary-typeface.svg)
 
 ## 6. Sample designs
+### a. Website mockups
+Homepage [PNG](downloads/web-home.png), [PDF](downloads/web-home.pdf)  
+Covenant (Contract view) [PNG](downloads/web-covenant-contract.png), [PNG](downloads/web-covenant-contract.pdf)  
+Covenant (JSON view) [PNG](downloads/web-covenant-json.png), [PNG](downloads/web-covenant-json.pdf)  
+Rebalancer [PNG](downloads/web-rebalancer.png), [PNG](downloads/web-rebalancer.png)
 
+![Sample web pages](images/sample-web.png)
 
+### b. Team swag
+
+TKTK
 
 ## 7. Contact
 For inquiries, please contact TKTK.
