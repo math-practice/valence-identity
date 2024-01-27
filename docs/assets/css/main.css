@@ -1,19 +1,26 @@
+:root {
+  --c-black: #000;
+  --c-white: #fff;
+  --c-red: #FF2A00;
+  --c-blue: #00A3FF;
+  --c-gray: #A0A0A0;
+}
+
 body {
-  padding: 1em;
   line-height: 1.25;
 }
-main {
+main.narrow {
   width: 1024px;
   margin: 0 auto;
 }
-h2 {
+h1, h2 {
   margin-bottom: 0.5em;
 }
 p {
   margin-bottom: 1em;
 }
 a {
-  color: #000;
+  color: var(--c-black);
 }
 
 /* typography */
@@ -87,6 +94,10 @@ a {
 .b-l { border-left: 1px solid; }
 .b-r { border-right: 1px solid; }
 
+.xb-l-red  { border-left: 8px solid var(--c-red); }
+.xb-l-blue { border-left: 8px solid var(--c-blue); }
+.xb-l-gray { border-left: 8px solid var(--c-gray); }
+
 /* layout */
 
 .flex {
@@ -96,11 +107,30 @@ a {
 .flex-between {
   justify-content: space-between;
 }
+.flex-grow {
+  flex-grow: 1;
+}
 .flex > div {
   flex: 0 1 auto;
 }
 
 /* components */
+
+nav {
+  height: 3.25em;
+  line-height: 3.25em;
+}
+nav a {
+  text-decoration: none;
+}
+
+aside {
+  width: 360px;
+}
+
+article {
+  max-width: 840px;
+}
 
 input, .button {
   display: inline-block;
@@ -108,20 +138,24 @@ input, .button {
   padding: 0.5em 0.75em;
   text-decoration: none;
 }
+
 .button:hover {
-  border: 1px solid #000;
-  background: #000;
-  color: #fff;
+  border: 1px solid var(--c-black);
+  background: var(--c-black);
+  color: var(--c-white);
 }
 
 .box {
   width: 480px;
 }
-
 .email {
   width: 220px;
 }
-
-.logo-v > img {
+.logo-home {
   width: 120px;
+}
+.logo-nav {
+  width: 100px;
+  display: inline-block;
+  margin-top:7px;
 }
