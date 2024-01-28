@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Valence</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <nav class="flex t-sans b-b">
+      <a class="mh-1" href="index.html"><img class="logo-nav" src="assets/images/valence-horizontal-lockup.svg"></a>
+      <a class="mh-1 t-b" href="covenant-contract.html">Covenant</a>
+      <a class="mh-1" href="rebalancer.html">Rebalancer</a>
+    </nav>
+    <section class="t-sans t-m flex">
+      <aside class="b-r">
+        <section class="b-b p-1">
+          <figure class="mv-2">
+            <img src="assets/images/covenant.svg" />
+          </figure>
+          <h1 class="t-l t-b">Covenant</h1>
+          <p>
+            Covenants are interchain agreements. Permissionless digital
+            institutions that enable humanity to collaborate with unprecedented
+            scope and scale.
+          </p>
+          <div class="form-group mt-2">
+            <label for="" class="t-b">Covenant type</label>
+            <input type="text" name="" id="" class="t-sans t-m" value="Swap and LP">
+          </div>
+          <a href="#" class="button full primary mv-1">Propose</a>
+        </section>
+        <section class="b-b p-1 xb-l-red">
+          <h2 class="t-b mb-1"><span class="bullet bg-red">&nbsp;</span>Party A</h2>
+          <div class="form-group">
+            <label for="">Destination for returned assets</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+          <div class="form-group">
+            <label for="">Party-authorized Neutron address</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+          <h3 class="mv-1">Denom</h3>
+          <div class="form-group flex">
+            <label class="form-elem-half" for="">Native</label>
+            <input type="text" name="" id="" class="t-sans t-m form-elem-half">
+          </div>
+          <div class="form-group flex">
+            <label class="form-elem-half" for="">Neutron IBC</label>
+            <input type="text" name="" id="" class="t-sans t-m form-elem-half">
+          </div>
+          <div class="form-group">
+            <label for="">Amount</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+          <h3 class="mv-1">Channel IDs</h3>
+          <div class="form-group flex">
+            <label class="form-elem-half" for="">To Neutron</label>
+            <input type="text" name="" id="" class="t-sans t-m form-elem-half">
+          </div>
+          <div class="form-group flex">
+            <label class="form-elem-half" for="">From Neutron</label>
+            <input type="text" name="" id="" class="t-sans t-m form-elem-half">
+          </div>
+          <div class="form-group">
+            <label for="">Connection from Neutron</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+          <div class="form-group">
+            <label for="">IBC transfer timeout (seconds)</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+        </section>
+        <section class="b-b p-1 xb-l-blue">
+          <h2 class="t-b mb-1"><span class="bullet bg-blue">&nbsp;</span>Party B</h2>
+          <div class="form-group">
+            <label for="">Destination for returned assets</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+          <div class="form-group">
+            <label for="">Party-authorized Neutron address</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+          <h3 class="mv-1">Denom</h3>
+          <div class="form-group flex">
+            <label class="form-elem-half" for="">Native</label>
+            <input type="text" name="" id="" class="t-sans t-m form-elem-half">
+          </div>
+          <div class="form-group flex">
+            <label class="form-elem-half" for="">Neutron IBC</label>
+            <input type="text" name="" id="" class="t-sans t-m form-elem-half">
+          </div>
+          <div class="form-group">
+            <label for="">Amount</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+          <h3 class="mv-1">Channel IDs</h3>
+          <div class="form-group flex">
+            <label class="form-elem-half" for="">To Neutron</label>
+            <input type="text" name="" id="" class="t-sans t-m form-elem-half">
+          </div>
+          <div class="form-group flex">
+            <label class="form-elem-half" for="">From Neutron</label>
+            <input type="text" name="" id="" class="t-sans t-m form-elem-half">
+          </div>
+          <div class="form-group">
+            <label for="">Connection from Neutron</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+          <div class="form-group">
+            <label for="">IBC transfer timeout (seconds)</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+        </section>
+        <section class="b-b p-1 xb-l-gray">
+          <h2 class="t-b mb-1"><span class="bullet bg-gray">&nbsp;</span>Both Parties</h2>
+          <div class="form-group">
+            <label for="">Deposit deadline</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+          <div class="form-group">
+            <label for="">Covenant label</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+          <div class="form-group">
+            <label for="">Clock tick max gas</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+        </section>
+      </aside>
+      <main class="flex-grow">
+        <nav class="flex flex-between b-b bg-lightgray">
+          <div class="flex">
+            <div class="b-r ph-1 bg-white">
+              <a href="covenant-contract.html">Contract</a>
+            </div>
+            <div class="b-r ph-1">
+              <a href="covenant-json.html">JSON</a>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="ph-1">
+              <a href="#">Copy text</a>
+            </div>
+            <div class="ph-1">
+              <a href="#">Download</a>
+            </div>
+          </div>
+        </nav>
+        <article class="bg-lightgray">
+          <div class="doc t-serif t-l pv-2 ph-3">
+            <h1>I. Initial terms</h1>
+            <h2><span class="tagged bg-red">Party A</span> agrees to the following:</h2>
+            <p class="t-indent">
+              Bacon ipsum dolor amet pork chop ball tip venison meatloaf burgdoggen <span class="tagged bg-red">Parameter A</span> tri-tip landjaeger. Tri-tip leberkas beef, alcatra tenderloin chislic pork chop short ribs sausage short loin. Fatback flank tongue, prosciutto boudin ground round beef ball tip sausage tenderloin. Burgdoggen cow alcatra, biltong picanha short ribs beef venison shoulder leberkas tongue strip steak shankle <span class="tagged bg-red">Parameter B</span>.
+            </p>
+            <h2><span class="tagged bg-blue">Party A</span> agrees to the following:</h2>
+            <p class="t-indent">
+              Bacon ipsum dolor amet pork chop ball tip venison meatloaf burgdoggen <span class="tagged bg-blue">Parameter A</span> tri-tip landjaeger. Tri-tip leberkas beef, alcatra tenderloin chislic pork chop short ribs sausage short loin. Fatback flank tongue, prosciutto boudin ground round beef ball tip sausage tenderloin. Burgdoggen cow alcatra, biltong picanha short ribs beef venison shoulder leberkas tongue strip steak shankle <span class="tagged bg-blue">Parameter B</span>.
+            </p>
+            <h1>II. Early release</h1>
+            <p>
+              In the event one or both parties wants to terminate this agreement before its natural conclusion, they have set forth the following terms.
+            </p>
+            <p class="t-indent">
+              <span class="tagged bg-red">Party A</span> ground round alcatra, picanha pig cupim pancetta turducken meatloaf fatback jerky. Sausage ball tip beef ribs, meatball ribeye t-bone <span class="tagged bg-red">Parameter C</span> turkey. Meatloaf pork loin pancetta, pork chop porchetta chislic prosciutto beef bacon leberkas bresaola drumstick cow alcatra rump. Kevin burgdoggen ham hock, meatloaf ground round shoulder beef turducken spare ribs short loin kielbasa <span class="tagged bg-red">Parameter D</span>.
+            </p>
+            <p class="t-indent">
+              <span class="tagged bg-blue">Party B</span> bacon jerky spare ribs strip steak doner meatball alcatra rump sirloin Parameter C venison ground round jowl. Buffalo pancetta chicken bacon. Short ribs prosciutto filet mignon pork chop venison buffalo short loin jerky swine <span class="tagged bg-blue">Parameter D</span>, drumstick shoulder.
+            </p>
+            <h1>III. Conclusion</h1>
+            <p>
+              Upon the conclusion of this agreement, <span class="tagged bg-red">Party A</span> agrees to sirloin rump alcatra pastrami pork t-bone andouille filet mignon chislic buffalo, whereas <span class="tagged bg-blue">Party B</span> agrees toshort loin t-bone pancetta doner tri-tip cow meatball meatloaf fatback.
+            </p>
+          </doc>
+        </article>
+      </main>
+    </section>
+    <main>
+    </main>
+  </body>
+</html>

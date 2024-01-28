@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Valence</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <nav class="flex t-sans b-b">
+      <a class="mh-1" href="index.html"><img class="logo-nav" src="assets/images/valence-horizontal-lockup.svg"></a>
+      <a class="mh-1 t-b" href="covenant-contract.html">Covenant</a>
+      <a class="mh-1" href="rebalancer.html">Rebalancer</a>
+    </nav>
+    <section class="t-sans t-m flex">
+      <aside class="b-r">
+        <section class="b-b p-1">
+          <figure class="mv-2">
+            <img src="assets/images/covenant.svg" />
+          </figure>
+          <h1 class="t-l t-b">Covenant</h1>
+          <p>
+            Covenants are interchain agreements. Permissionless digital
+            institutions that enable humanity to collaborate with unprecedented
+            scope and scale.
+          </p>
+          <div class="form-group mt-2">
+            <label for="" class="t-b">Covenant type</label>
+            <input type="text" name="" id="" class="t-sans t-m" value="Swap and LP">
+          </div>
+          <a href="#" class="button full primary mv-1">Propose</a>
+        </section>
+        <section class="b-b p-1 xb-l-red">
+          <h2 class="t-b mb-1"><span class="bullet bg-red">&nbsp;</span>Party A</h2>
+          <div class="form-group">
+            <label for="">Destination for returned assets</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+          <div class="form-group">
+            <label for="">Party-authorized Neutron address</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+          <h3 class="mv-1">Denom</h3>
+          <div class="form-group flex">
+            <label class="form-elem-half" for="">Native</label>
+            <input type="text" name="" id="" class="t-sans t-m form-elem-half">
+          </div>
+          <div class="form-group flex">
+            <label class="form-elem-half" for="">Neutron IBC</label>
+            <input type="text" name="" id="" class="t-sans t-m form-elem-half">
+          </div>
+          <div class="form-group">
+            <label for="">Amount</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+          <h3 class="mv-1">Channel IDs</h3>
+          <div class="form-group flex">
+            <label class="form-elem-half" for="">To Neutron</label>
+            <input type="text" name="" id="" class="t-sans t-m form-elem-half">
+          </div>
+          <div class="form-group flex">
+            <label class="form-elem-half" for="">From Neutron</label>
+            <input type="text" name="" id="" class="t-sans t-m form-elem-half">
+          </div>
+          <div class="form-group">
+            <label for="">Connection from Neutron</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+          <div class="form-group">
+            <label for="">IBC transfer timeout (seconds)</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+        </section>
+        <section class="b-b p-1 xb-l-blue">
+          <h2 class="t-b mb-1"><span class="bullet bg-blue">&nbsp;</span>Party B</h2>
+          <div class="form-group">
+            <label for="">Destination for returned assets</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+          <div class="form-group">
+            <label for="">Party-authorized Neutron address</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+          <h3 class="mv-1">Denom</h3>
+          <div class="form-group flex">
+            <label class="form-elem-half" for="">Native</label>
+            <input type="text" name="" id="" class="t-sans t-m form-elem-half">
+          </div>
+          <div class="form-group flex">
+            <label class="form-elem-half" for="">Neutron IBC</label>
+            <input type="text" name="" id="" class="t-sans t-m form-elem-half">
+          </div>
+          <div class="form-group">
+            <label for="">Amount</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+          <h3 class="mv-1">Channel IDs</h3>
+          <div class="form-group flex">
+            <label class="form-elem-half" for="">To Neutron</label>
+            <input type="text" name="" id="" class="t-sans t-m form-elem-half">
+          </div>
+          <div class="form-group flex">
+            <label class="form-elem-half" for="">From Neutron</label>
+            <input type="text" name="" id="" class="t-sans t-m form-elem-half">
+          </div>
+          <div class="form-group">
+            <label for="">Connection from Neutron</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+          <div class="form-group">
+            <label for="">IBC transfer timeout (seconds)</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+        </section>
+        <section class="b-b p-1 xb-l-gray">
+          <h2 class="t-b mb-1"><span class="bullet bg-gray">&nbsp;</span>Both Parties</h2>
+          <div class="form-group">
+            <label for="">Deposit deadline</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+          <div class="form-group">
+            <label for="">Covenant label</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+          <div class="form-group">
+            <label for="">Clock tick max gas</label>
+            <input type="text" name="" id="" class="t-sans t-m">
+          </div>
+        </section>
+      </aside>
+      <main class="flex-grow">
+        <nav class="flex flex-between b-b bg-lightgray">
+          <div class="flex">
+            <div class="b-r ph-1">
+              <a href="covenant-contract.html">Contract</a>
+            </div>
+            <div class="b-r ph-1 bg-white">
+              <a href="covenant-json.html">JSON</a>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="ph-1">
+              <a href="#">Copy text</a>
+            </div>
+            <div class="ph-1">
+              <a href="#">Download</a>
+            </div>
+          </div>
+        </nav>
+        <article class="bg-lightgray">
+          <div class="doc t-serif t-mono t-s flex">
+            <div class="line-no p-1 b-r t-gray">
+              0<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>
+              10<br>11<br>12<br>13<br>14<br>15<br>16<br>17<br>18<br>19<br>
+              20<br>21<br>22<br>23<br>24<br>25<br>26<br>27<br>28<br>29<br>
+              30<br>31<br>32<br>33<br>34<br>35<br>36<br>37<br>38<br>39<br>
+              40<br>41<br>42<br>43<br>44<br>45<br>46<br>47<br>48<br>49<br>
+            </div>
+            <div class="p-1">
+              <pre>{"web-app": {
+  "servlet": [
+  {
+    "servlet-name": "cofaxCDS",
+    "servlet-class": "org.cofax.cds.CDSServlet",
+    "init-param": {
+    "configGlossary:installationAt": "Philadelphia, PA",
+    "configGlossary:adminEmail": "ksm@pobox.com",
+    "maxUrlLength": 500}},
+  {
+    "servlet-name": "cofaxEmail",
+    "servlet-class": "org.cofax.cds.EmailServlet",
+    "init-param": {
+    "mailHost": "mail1",
+    "mailHostOverride": "mail2"}},
+  {
+    "servlet-name": "cofaxAdmin",
+    "servlet-class": "org.cofax.cds.AdminServlet"},
+  {
+    "servlet-name": "fileServlet",
+    "servlet-class": "org.cofax.cds.FileServlet"},
+  {
+    "servlet-name": "cofaxTools",
+    "servlet-class": "org.cofax.cms.CofaxToolsServlet",
+    "init-param": {
+      "templatePath": "toolstemplates/",
+      "log": 1,
+      "logLocation": "/usr/local/tomcat/logs/CofaxTools.log",
+      "logMaxSize": "",
+      "dataLog": 1,
+      "dataLogLocation": "/usr/local/tomcat/logs/dataLog.log",
+      "dataLogMaxSize": "",
+      "removePageCache": "/content/admin/remove?cache=pages&id=",
+      "removeTemplateCache": "/content/admin/remove?cache=templates&id=",
+      "fileTransferFolder": "/usr/local/tomcat/webapps/content/fileTransferFolder",
+      "lookInContext": 1,
+      "adminGroupID": 4,
+      "betaServer": true}}],
+  "servlet-mapping": {
+    "cofaxCDS": "/",
+    "cofaxEmail": "/cofaxutil/aemail/*",
+    "cofaxAdmin": "/admin/*",
+    "fileServlet": "/static/*",
+    "cofaxTools": "/tools/*"},
+    "taglib": {
+      "taglib-uri": "cofax.tld",
+      "taglib-location": "/WEB-INF/tlds/cofax.tld"
+    }
+  }
+}
+              </pre>
+            </div>
+          </doc>
+        </article>
+      </main>
+    </section>
+    <main>
+    </main>
+  </body>
+</html>
