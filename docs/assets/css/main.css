@@ -3,6 +3,10 @@
   --c-white: #fff;
   --c-red: #FF2A00;
   --c-blue: #00A3FF;
+  --c-pink: #EA80D1;
+  --c-green: #4EBB5B;
+  --c-yellow: #FFBC57;
+  --c-brown: #800000;
   --c-gray: #A0A0A0;
   --c-mediumgray: #C9C9C9;
   --c-lightgray: #E9E9E9;
@@ -53,9 +57,9 @@ a {
   line-height: 0.9;
   letter-spacing: -0.005em;
 }
-.t-center {
-  text-align: center;
-}
+.t-center { text-align: center; }
+.t-right  { text-align: right; }
+
 .t-indent {
   padding-left: 2em;
 }
@@ -71,6 +75,10 @@ a {
 .bg-white     { background-color: var(--c-white); }
 .bg-red       { background-color: var(--c-red); }
 .bg-blue      { background-color: var(--c-blue); }
+.bg-pink      { background-color: var(--c-pink); }
+.bg-green     { background-color: var(--c-green); }
+.bg-yellow    { background-color: var(--c-yellow); }
+.bg-brown     { background-color: var(--c-brown); }
 .bg-gray      { background-color: var(--c-gray); }
 .bg-lightgray { background-color: var(--c-lightgray); }
 
@@ -157,6 +165,9 @@ nav {
 nav a {
   text-decoration: none;
 }
+nav .form-group {
+  margin-top: 0.4em;
+}
 
 aside {
   width: 400px;
@@ -165,8 +176,13 @@ aside {
 }
 
 article {
-  height: calc(100vh - 6.5em);
   overflow: scroll;
+}
+article.covenant {
+  height: calc(100vh - 6.5em);
+}
+article.rebalancer {
+  height: calc(100vh - 3.25em);
 }
 article > .doc {
   max-width: 900px;
@@ -233,4 +249,25 @@ span.bullet {
   width: 1.25em;
   margin-right: 0.6em;
   border-radius: 2px;
+}
+span.bullet.round {
+  border-radius: 100px;
+}
+.chart {
+  height: 500px;
+}
+table {
+  width: 100%;
+}
+table tr {
+  height: 3.25em;
+  border-bottom: 1px solid var(--c-gray);
+}
+table th, table td {
+  text-align: left;
+  vertical-align: middle;
+  padding: 0 1em;
+}
+table th {
+  font-weight: bold;
 }
